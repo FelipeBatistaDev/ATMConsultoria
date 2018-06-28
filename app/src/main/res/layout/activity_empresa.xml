@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmconsultoria.cursoandroid.com.atmconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/detalhe_empresa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/EmpresaDetalhes"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A empresa fictícia trabalha  no ramo dos cogumelos do sol com a iogurteira da top term, para melhor proporcinar produtos para você dona de casa que está desesperada por vitamina D, e não tem Centrum em casa, mas no pior dos casos ela só ta dormindo e esperando as coisas cairem do sol  A empresa fictícia trabalha  no ramo dos cogumelos do sol com a iogurteira da top term, para melhor proporcinar produtos para você dona de casa que está desesperada por vitamina D, e não tem Centrum em casa, mas no pior dos casos ela só ta dormindo e esperando as coisas cairem do sol"
+            android:id="@+id/textView2"
+            android:background="#efecec"
+            android:padding="@dimen/paddin_padrao" />
+    </ScrollView>
+</RelativeLayout>
